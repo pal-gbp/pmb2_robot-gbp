@@ -2,6 +2,9 @@
 Changelog for package pmb2_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+5.4.0 (2024-11-05)
+------------------
+
 5.3.1 (2024-10-15)
 ------------------
 * Merge branch 'fix/aca/joy-turbo' into 'humble-devel'
