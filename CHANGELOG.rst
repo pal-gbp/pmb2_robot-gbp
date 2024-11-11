@@ -2,6 +2,12 @@
 Changelog for package pmb2_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+5.4.0 (2024-11-05)
+------------------
+* Only run test_description test for the default config
+* Test xacros with urdf_test
+* Contributors: Mathias Lüdtke
+
 5.3.1 (2024-10-15)
 ------------------
 
