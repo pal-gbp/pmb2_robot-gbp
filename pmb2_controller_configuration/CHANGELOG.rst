@@ -2,6 +2,11 @@
 Changelog for package pmb2_controller_configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+5.4.0 (2024-11-05)
+------------------
+* Set update_rate for joint_state_broadcaster
+* Contributors: Noel Jimenez
+
 5.3.1 (2024-10-15)
 ------------------
 
