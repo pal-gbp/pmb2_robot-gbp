@@ -2,6 +2,21 @@
 Changelog for package pmb2_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+5.7.0 (2025-02-24)
+------------------
+* update locks and topics to integrate assisted_teleop
+* Contributors: andreacapodacqua
+
+5.6.0 (2025-01-22)
+------------------
+* lock robot if charging
+* Contributors: antoniobrandi
+
+5.5.0 (2025-01-22)
+------------------
+* support camera_model argument
+* Contributors: antoniobrandi
+
 5.4.0 (2024-11-05)
 ------------------
 
