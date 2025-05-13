@@ -1,3 +1,30 @@
+## pmb2_robot (humble) - 5.8.2-1
+
+The packages in the `pmb2_robot` repository were released into the `humble` distro by running `/usr/bin/bloom-release --track humble --rosdistro humble pmb2_robot -y` on `Tue, 13 May 2025 11:56:54 -0000`
+
+These packages were released:
+- `pmb2_bringup`
+- `pmb2_controller_configuration`
+- `pmb2_description`
+- `pmb2_robot`
+
+Version of package(s) in repository `pmb2_robot`:
+
+- upstream repository: https://github.com/pal-robotics/pmb2_robot.git
+- release repository: https://github.com/pal-gbp/pmb2_robot-gbp.git
+- rosdistro version: `5.7.0-1`
+- old version: `5.7.0-1`
+- new version: `5.8.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.24.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## pmb2_robot (humble) - 5.7.0-1
 
 The packages in the `pmb2_robot` repository were released into the `humble` distro by running `/usr/bin/bloom-release --track humble --rosdistro humble pmb2_robot -y` on `Fri, 07 Mar 2025 10:14:31 -0000`
