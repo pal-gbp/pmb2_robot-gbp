@@ -2,6 +2,19 @@
 Changelog for package pmb2_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+5.8.2 (2025-03-28)
+------------------
+
+5.8.1 (2025-03-25)
+------------------
+* removed marker_vel
+* Contributors: andreacapodacqua
+
+5.8.0 (2025-03-25)
+------------------
+* added tab_vel to twist_mux
+* Contributors: andreacapodacqua
+
 5.7.0 (2025-02-24)
 ------------------
 * update locks and topics to integrate assisted_teleop
