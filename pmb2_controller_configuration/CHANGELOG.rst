@@ -2,6 +2,14 @@
 Changelog for package pmb2_controller_configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+5.9.0 (2025-06-17)
+------------------
+* add support to namespaces
+* Contributors: antoniobrandi
+
+5.8.3 (2025-06-06)
+------------------
+
 5.8.2 (2025-03-28)
 ------------------
 * Remove unused imu broadcaster and hardware interface
