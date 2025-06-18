@@ -19,7 +19,6 @@ limitations under the License.
 
   <!-- INCLUDES -->
   <xacro:include filename="$(find pmb2_description)/urdf/wheels/wheel.ros2_control.xacro"/>
-  <xacro:include filename="$(find pmb2_description)/urdf/sensors/sensors.ros2_control.xacro"/>
 
   <!-- MACRO DEFINITION-->
   <xacro:macro name="pmb2_ros2_control">
@@ -28,6 +27,11 @@ limitations under the License.
     <xacro:if value="${use_sim_time}">
       <gazebo>
         <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+          <ros>
+            <namespace>${namespace}</namespace>
+            <remapping>/tf:=tf</remapping>
+            <remapping>/tf_static:=tf_static</remapping>
+          </ros>
           <parameters>$(find pmb2_description)/ros2_control/gazebo_controller_manager_cfg.yaml</parameters>
         </plugin>
       </gazebo>
