@@ -2,6 +2,23 @@
 Changelog for package pmb2_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+5.10.2 (2025-07-23)
+-------------------
+* Merge branch 'tpe/update_wheel_max_vel' into 'humble-devel'
+  Increase Wheel max velocity
+  See merge request robots/pmb2_robot!167
+* Remove params from ros2control
+* Increase Wheel max velocity
+* Contributors: thomas.peyrucain, thomaspeyrucain
+
+5.10.1 (2025-07-09)
+-------------------
+* fix use_sim_time
+* Contributors: andreacapodacqua
+
+5.10.0 (2025-07-08)
+-------------------
+
 5.9.0 (2025-06-17)
 ------------------
 * add support to namespaces
