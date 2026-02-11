@@ -2,6 +2,30 @@
 Changelog for package pmb2_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+5.11.2 (2026-01-29)
+-------------------
+* Use package instead of find for meshes lookup
+  This change avoids errors when visualizing the robot in rviz2 from a
+  remote host instead of directly inside the robot
+* Contributors: Noel Jimenez
+
+5.11.1 (2026-01-08)
+-------------------
+
+5.11.0 (2025-12-09)
+-------------------
+* Remove usage of gazebo plugins for JointStatePublisher and DiffDrive
+  Already handled by ros2_control
+* Add support for new gazebo
+* Changes for new Gazebo
+  Signed-off-by: Juancams <jc.manzanares.serrano@gmail.com>
+* Contributors: Juancams, Noel Jimenez
+
+5.10.3 (2025-11-21)
+-------------------
+* added realsense2_description exec depend
+* Contributors: martinaannicelli
+
 5.10.2 (2025-07-23)
 -------------------
 * Merge branch 'tpe/update_wheel_max_vel' into 'humble-devel'
