@@ -2,6 +2,25 @@
 Changelog for package pmb2_controller_configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+5.11.2 (2026-01-29)
+-------------------
+
+5.11.1 (2026-01-08)
+-------------------
+* Add "Hardware Components Activity" module dependency
+* Contributors: Noel Jimenez
+
+5.11.0 (2025-12-09)
+-------------------
+
+5.10.3 (2025-11-21)
+-------------------
+* Remove deprecated parameter has_jerk_limits
+  [deprecated] has_jerk_limits parameter is deprecated, instead set the respective limits to NAN
+  ￼
+  max_jerk already defaults to NAN
+* Contributors: Noel Jimenez
+
 5.10.2 (2025-07-23)
 -------------------
 
